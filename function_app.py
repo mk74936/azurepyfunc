@@ -20,6 +20,6 @@ def func_testinggit(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "Hey I automate the pipeline process.. I wANT TO TEST",
+             "Hey I automate the pipeline process.. I wANT TO TEST 2",
              status_code=200
         )
