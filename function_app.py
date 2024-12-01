@@ -17,7 +17,7 @@ def func_testinggit(req: func.HttpRequest) -> func.HttpResponse:
             name = req_body.get('name')
 
     if name:
-        return func.HttpResponse(f"What the fuck")
+        return func.HttpResponse("What the fuck")
     else:
         return func.HttpResponse(
              "Hey I automate the pipeline process.. I wANT TO TEST 1",
